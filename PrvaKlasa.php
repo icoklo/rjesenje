@@ -9,7 +9,7 @@
 class PrvaKlasa{
 
     /**
-     * KlasaA constructor.
+     * PrvaKlasa constructor.
      */
     public function __construct()
     {

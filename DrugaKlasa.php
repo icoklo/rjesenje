@@ -10,7 +10,7 @@ class DrugaKlasa{
 
 
     /**
-     * KlasaB constructor.
+     * DrugaKlasa constructor.
      */
     public function __construct()
     {

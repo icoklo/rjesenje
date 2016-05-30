@@ -19,7 +19,7 @@ if (isset($_GET["klasa"]) && isset($_GET["funkcija"])) {
             case "PrvaKlasa":
                 include_once "./PrvaKlasa.php";
                 $prvaKlasa = new PrvaKlasa();
-
+                
                 /*$reflection=new ReflectionClass(get_class($prvaKlasa));
                 $polje=$reflection.get_class_methods(get_class($prvaKlasa));
                 for($i=0;$i<sizeof($polje);$i++){
