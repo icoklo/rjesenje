@@ -7,8 +7,7 @@
  */
 
 class DrugaKlasa{
-
-
+    
     /**
      * DrugaKlasa constructor.
      */
@@ -17,6 +16,9 @@ class DrugaKlasa{
 
     }
 
+    /**
+     * funkcija1 ispisuje url na koji je korisnik došao, ime klase te ime funkcije koja je pozvana
+     */
     public function funkcija1(){
         $imeKlase=__CLASS__;
         $imeFunkcije=__FUNCTION__;
@@ -25,7 +27,10 @@ class DrugaKlasa{
         print("<p>Ime pozvane funkcije: ".$imeFunkcije." </p>");
     }
 
-    public function funkcija2(){
+    /**
+     * mnoziBrojeve ispisuje url na koji je korisnik došao, ime klase te ime funkcije koja je pozvana
+     */
+    public function mnoziBrojeve(){
         $imeKlase=__CLASS__;
         $imeFunkcije=__FUNCTION__;
         print("<p>Url: http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."</p>");
